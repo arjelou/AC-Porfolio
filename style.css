@@ -17,6 +17,16 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+.i-nav a{
+    color: black;
+    text-decoration: none;
+    margin-left: 5vw;
+}
+.sticky {
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+  }
 .m-about{
     cursor: pointer;
     font-size:40px;
@@ -80,7 +90,7 @@ body{
 
 .footer{
     background-color: aqua;
-    height: 50vh;
+    height: 10vh;
     width: 100%;
     margin: 0;
     padding: 0;

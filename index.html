@@ -18,7 +18,7 @@
   </head>
   <body>
     <!--header-->
-    <div class="container-fluid">
+    <div class="container-fluid" id="header">
       <div class="row header">
         <div
           class="row text-center justify-content-md-center justify-content-around position-absolute top-50 start-50 translate-middle"
@@ -43,13 +43,22 @@
             <h1 class="text-center job-description"><b>WEB DEVELOPER</b></h1>
           </div>
           <div class="col">
-            <i
-              onclick="goTo('about')"
+            <!-- <i
+              onclick="goTo('project')"
               class="fa fa-long-arrow-right text-center m-about"
               aria-hidden="true"
-            ></i>
+            ></i> -->
           </div>
         </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row" id="navbar">
+        <i class="i-nav" onclick="goTo('header')"><a href="javascript:void(0)" id="navTag">Home</a></i>
+        <i class="i-nav" onclick="goTo('about')"><a href="javascript:void(0)" id="navTag">About</a></i>
+        <i class="i-nav" onclick="goTo('project')"><a href="javascript:void(0)" id="navTag">Project</a></i>
+        <i class="i-nav" onclick="goTo('experience')"><a href="javascript:void(0)" id="navTag">Experience</a></i>
+        <i class="i-nav" onclick="goTo('contact')"><a href="javascript:void(0)" id="navTag">Contact</a></i>
       </div>
     </div>
     <!--about-->
@@ -87,11 +96,7 @@
               </p>
             </div>
           </div>
-          <div class="col"><!--somthing here!--><i
-            onclick="goTo('project')"
-            class="fa fa-long-arrow-right m-about"
-            aria-hidden="true"
-          ></i></div>
+          <div class="col"></div>
         </div>
     </div>
     </div>
@@ -126,11 +131,7 @@
             </div>
           </div>
           <div class="col"><!--somthing here!-->
-            <i
-            onclick="goTo('experience')"
-            class="fa fa-long-arrow-right m-about"
-            aria-hidden="true"
-            ></i>
+          
          </div>
         </div>
         <!--experience-->
@@ -143,11 +144,7 @@
                     <h1>col-4</h1>
                 </div>
                 <div class="col">
-                    <i
-            onclick="goTo('contact')"
-            class="fa fa-long-arrow-right m-about"
-            aria-hidden="true"
-            ></i>
+                  
                 </div>
             </div>
             <div class="row section-experience">
@@ -184,26 +181,29 @@
         </div>
         <!--contact-->
         <div class="container-fluid contact" id="contact">
-            <div class="row">
-                <h1 class="text-center contactHero p-5">Get In Touch</h1>
-                    <div class="col move-center text-end">
-                        <i class="fa fa-map text-end" style="font-size: 30px; color: #d04b16"></i>
+            <div class="row text-center">
+                <h1 class="contactHero p-5">Get In Touch</h1>
+                    <div class="col">
+                        <i class="fa fa-map" style="font-size: 30px; color: #d04b16"></i>
                         <p>Davao City PH GT+8000 </p>
                     </div>
-                    <div class="col move-center text-center">
+                    <div class="col">
                         <i class="fa fa-envelope" style="font-size: 30px; color: #d04b16"></i>
                         <p>contact@tehnolei.com</p>
                     </div>
-                    <div class="col move-center">
+                    <div class="col">
                         <i class="fa fa-phone" style="font-size: 30px; color: #d04b16"></i>
                         <p>(+63) 955-770-2539</p>
                     </div>
-                
             </div>
         </div>
     </div>
-      <div class="row footer" id="footer">Footer</div>
+  <div class="container-fluid footer" id="footer">
+    <div class="row text-center"><h4>Footer</h4>
+      <label for="copyright">copyright</label>
+      <i class="fa fa-copyright copyright" style="font-size: 30px; color: #d04b16"></i>
     </div>
+  </div>
     <script src="./index.js"></script>
   </body>
 </html>
