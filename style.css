@@ -20,6 +20,9 @@ body{
 .tnScheduleDemoHeader{
     margin-top: 30px;
 }
+.headerIcons{
+    cursor: pointer;
+}
 
 .i-nav a{
     color: white;
@@ -27,7 +30,6 @@ body{
     margin-left: 1vw;
 }
 .i-nav a:hover{
-    
     font-size: 16px;
     transition: 0.10ms;
     z-index: 2 ;
@@ -128,10 +130,14 @@ body{
 
 
 .footer{
-    background-color: aqua;
+    background-color: rgba(206, 216, 206, 0.753);
     height: 10vh;
     width: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.footerIcons{
+    margin-left: 10px;
+    cursor: pointer;
 }
