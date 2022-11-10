@@ -43,7 +43,15 @@ body{
     z-index: 2;
     border-bottom-right-radius: 10px;
     box-shadow: 1px 1px 25px rgba(128, 128, 128, 0.747);
-  }
+    animation-name: stickyNavigationBar;
+    animation-duration: 30s;
+}
+@keyframes stickyNavigationBar{
+    0%   {background-color: #0d6efd;}
+  25%  {background-color: rgb(218, 154, 36);}
+  50%  {background-color: rgb(69, 211, 211);}
+  100% {background-color: rgb(60, 198, 60);}
+}
 
 .about{
     height: 100vh;
