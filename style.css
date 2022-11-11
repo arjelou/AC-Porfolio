@@ -125,7 +125,10 @@ body{
     font-size: 120px;
 }
 .btnScheduleDemo{
-    margin-top: 120px;
+    margin-top: 80px;
+}
+.btnSubscriberEmail{
+     margin-top: 20px;
 }
 
 

@@ -26,3 +26,4 @@ function scrollStickyNavBar() {
 const dateNow = new Date()
 document.getElementById('dateUpdate').innerHTML = dateNow.getFullYear();
 
+
